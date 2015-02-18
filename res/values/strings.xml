@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calc</string>
+    <string name="input_a">Input a</string>
+    <string name="input_b">Input b</string>
+    <string name="mul">MUL</string>
+    <string name="div">DIV</string>
+    <string name="result">Result:</string>
+    <string name="result_mul">Result mul:</string>
+    <string name="result_div">Result div:</string>
+</resources>

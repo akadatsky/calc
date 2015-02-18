@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_margin="5dp"
+                  tools:background="#FF0000"
+            >
+
+        <EditText
+                android:id="@+id/value1"
+                android:hint="@string/input_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1"/>
+
+        <EditText
+                android:hint="@string/input_b"
+                android:id="@+id/value2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_weight="1"/>
+
+
+            </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_margin="5dp"
+                  tools:background="#00F"
+            >
+
+        <Button
+                android:text="@string/mul"
+                android:layout_width="0dp"
+                android:id="@+id/buttonMul"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        <Button
+                android:text="@string/div"
+                android:id="@+id/buttonDiv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView android:layout_width="match_parent"
+              android:id="@+id/text"
+              tools:text="test test test"
+              android:padding="10dp"
+              android:textSize="24sp"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:layout_width="match_parent"
+              tools:background="#0F0"
+              android:id="@+id/comment"
+              tools:text="test test test"
+              android:padding="10dp"
+              android:textSize="24sp"
+              android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>
+
